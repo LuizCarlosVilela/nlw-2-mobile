@@ -1,6 +1,6 @@
 import React from "react";
 
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, Linking } from "react-native";
 import { RectButton } from "react-native-gesture-handler";
 
 //Icons
@@ -10,33 +10,46 @@ import whatsappIcon from "../../assets/images/icons/whatsapp.png";
 
 import styles from "./styles";
 
-function TeacherItem() {
+export interface Teacher {
+  id: number;
+  avatar: string;
+  bio: string;
+  cost: number;
+  name: string;
+  subject: string;
+  whatsapp: string;
+}
+
+interface TeacherItemProps {
+  teacher: Teacher;
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
+  function handleLinkToWhatsapp() {
+    Linking.openURL(`whatsapp://send?phone=${teacher.whatsapp}`);
+  }
+
   return (
     <View style={styles.container}>
       <View style={styles.profile}>
         <Image
           style={styles.avatar}
           source={{
-            uri: "https://github.com/LuizCarlosVilela.png",
+            uri: teacher.avatar,
           }}
         />
 
         <View style={styles.profileInfo}>
-          <Text style={styles.name}>Luiz Carlos</Text>
-          <Text style={styles.subject}>Programação</Text>
+          <Text style={styles.name}>{teacher.name}</Text>
+          <Text style={styles.subject}>{teacher.subject}</Text>
         </View>
       </View>
 
-      <Text style={styles.bio}>
-        Professor de programação avançado
-        {"\n"}
-        {"\n"}
-        Gosto sempre de fazer novas descobertas e assim evoluir
-      </Text>
+      <Text style={styles.bio}>{teacher.bio}</Text>
 
       <View style={styles.footer}>
         <Text style={styles.price}>
-          Preço/Hora <Text style={styles.value}>R$ 20,00</Text>
+          Preço/Hora <Text style={styles.value}>R$ {teacher.cost}</Text>
         </Text>
 
         <View style={styles.buttonsContainer}>
@@ -45,7 +58,10 @@ function TeacherItem() {
             <Image source={unfavoriteIcon} />
           </RectButton>
 
-          <RectButton style={styles.contactButton}>
+          <RectButton
+            onPress={handleLinkToWhatsapp}
+            style={styles.contactButton}
+          >
             <Image source={whatsappIcon} />
             <Text style={styles.contactButtonText}>Entrar em contato</Text>
           </RectButton>
@@ -53,6 +69,6 @@ function TeacherItem() {
       </View>
     </View>
   );
-}
+};
 
 export default TeacherItem;
