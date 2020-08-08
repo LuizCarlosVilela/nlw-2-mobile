@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { View, Image, Text, TouchableOpacity } from "react-native";
-import { useNavigation } from "@react-navigation/native";
+import { useNavigation, useFocusEffect } from "@react-navigation/native";
 
 import { RectButton } from "react-native-gesture-handler";
 
@@ -21,14 +21,16 @@ function Landing() {
   const { navigate } = useNavigation();
   const [connections, setConnections] = useState("");
 
-  useEffect(() => {
-    api
-      .get("connections")
-      .then(({ data }) => {
-        setConnections(data.total);
-      })
-      .catch((erro) => console.log(erro));
-  }, []);
+  useFocusEffect(
+    React.useCallback(() => {
+      api
+        .get("connections")
+        .then(({ data }) => {
+          setConnections(data.total);
+        })
+        .catch((erro) => console.log(erro));
+    }, [])
+  );
 
   function handleNavigateToGiveClassesPage() {
     navigate("GiveClasses");

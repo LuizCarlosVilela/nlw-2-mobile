@@ -14,6 +14,7 @@ import TeacherItem, { Teacher } from "../../components/TeacherItem";
 import api from "../../services/api";
 
 import styles from "./styles";
+import { useFocusEffect } from "@react-navigation/native";
 
 function TeacherList() {
   const [favorites, setFavorites] = useState<number[]>([]);
@@ -41,6 +42,12 @@ function TeacherList() {
       }
     });
   }
+
+  useFocusEffect(
+    React.useCallback(() => {
+      loadFavorites();
+    }, [])
+  );
 
   async function handleGetTecherList() {
     loadFavorites();
