@@ -1,16 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+
 import { View, ScrollView, TextInput, Text } from "react-native";
 import { BorderlessButton, RectButton } from "react-native-gesture-handler";
+
+import AsyncStorage from "@react-native-community/async-storage";
 
 import { Feather } from "@expo/vector-icons";
 
 import PageHeader from "../../components/PageHeader";
+
 import TeacherItem, { Teacher } from "../../components/TeacherItem";
 
-import styles from "./styles";
 import api from "../../services/api";
 
+import styles from "./styles";
+
 function TeacherList() {
+  const [favorites, setFavorites] = useState<number[]>([]);
+
   const [subject, setSubject] = useState("");
   const [week_day, setWeekDay] = useState("");
   const [time, setTime] = useState("");
@@ -19,7 +26,25 @@ function TeacherList() {
 
   const [teachers, setTeachers] = useState([]);
 
+  function loadFavorites() {
+    AsyncStorage.getItem("favorites").then((response) => {
+      if (response) {
+        const favoritedTeachers = JSON.parse(response);
+
+        const favoritedTeachersIds = favoritedTeachers.map(
+          (teacher: Teacher) => {
+            return teacher.id;
+          }
+        );
+
+        setFavorites(favoritedTeachersIds);
+      }
+    });
+  }
+
   async function handleGetTecherList() {
+    loadFavorites();
+
     const response = await api.get("classes", {
       params: {
         subject,
@@ -30,6 +55,10 @@ function TeacherList() {
 
     setTeachers(response.data);
     setFiltersVisible(false);
+
+    setSubject("");
+    setWeekDay("");
+    setTime("");
   }
 
   function handleFilterVisible() {
@@ -99,7 +128,13 @@ function TeacherList() {
         }}
       >
         {teachers.map((teacher: Teacher) => {
-          return <TeacherItem teacher={teacher} key={teacher.id} />;
+          return (
+            <TeacherItem
+              teacher={teacher}
+              key={teacher.id}
+              favorited={favorites.includes(teacher.id)}
+            />
+          );
         })}
       </ScrollView>
     </View>
