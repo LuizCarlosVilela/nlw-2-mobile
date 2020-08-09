@@ -109,6 +109,7 @@ $ yarn
 ```
 
 Exemplos:
+
 ```sh
 # Instalando as dependências do commitlint:
 $ cd ./proffy
@@ -141,8 +142,6 @@ Se tiver algum problema com as fontes, utilize o comando:
 ```sh
 $ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poopins
 ```
-
-**\* Lembre de inserir no arquivo `.env` o IP exato que foi gerado pelo seu mobile após utilizar o comando `npm run start`.**
 
 ## ***:star2: AGRADECIMENTOS***
 
