@@ -1,5 +1,5 @@
 
-# ***Proffy App Mobile***
+# ***Proffy App Mobile :iphone:***
 
 <h1 align=center>
   <img src="assets/img/Banner.PNG" alt="Proffy Banner"/>
@@ -27,20 +27,24 @@ Proffy é um projeto **Open Source** desenvolvido na semana **Next Level Week (2
 
 </h3>
 
+<h1 align=center>
+  Telas Mobile :iphone:
+</h1>
+
 <div align=center >  
   <table align=center border="0">
   <tr align=center>
-    <th ><strong> TeacherList </strong></th>
-    <th ><strong> Landing </strong></th>
-    <th ><strong> Landing </strong></th>
+    <th ><strong> Home </strong></th>
+    <th ><strong> Study </strong></th>
+    <th ><strong> Teacher </strong></th>
   </tr>
                                 
   <tr align=center >
     <td >
        <img width="400" src="assets/img/Landing.png">
     </td>
-    <td > <img width="400" src="assets/img/Landing.png"> </td>
-    <td> <img width="400" src="assets/img/Landing.png"> </td>
+    <td > <img width="400" src="assets/img/Teacher.png"> </td>
+    <td> <img width="400" src="assets/img/TeacherList.png"> </td>
   </tr>
 </table>
 </div>
@@ -54,8 +58,6 @@ O projeto tem como finalidade <strong>estabelecer uma conexão</strong> entre os
 </p>
 
 ## **:computer: TECNOLOGIAS**
-
-Arquivo json do Back-end <kbd>[package.json](https://github.com/LuizCarlosVilela/nlw-2-backend/blob/master/package.json)</kbd>
 
 #### **Mobile** ([React Native][react_native] + [TypeScript][typescript])
 
