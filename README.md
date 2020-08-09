@@ -34,9 +34,9 @@ Proffy é um projeto **Open Source** desenvolvido na semana **Next Level Week (2
 <div align=center >  
   <table align=center border="0">
   <tr align=center>
-    <th ><strong> Home </strong></th>
-    <th ><strong> Study</i> </strong></th>
-    <th ><strong> <i>Teacher</i> </strong></th>
+    <th ><strong> <i> Home </i> </strong></th>
+    <th ><strong> <i> Study </i> </strong></th>
+    <th ><strong> <i> Teacher </i> </strong></th>
   </tr>
                                 
   <tr align=center >
@@ -197,7 +197,7 @@ $ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poopins
 
 Este repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório. 
 
-<h2 align="center">Feito com ❤️ por <a href="https://www.linkedin.com/in/luiz-carlos-vilela/">Luiz Carlos Vilela</a></h2>
+<h2 align="center">Feito com ❤️ por <a href="https://www.linkedin.com/in/luiz-carlos-vilela/"> <i>Luiz Carlos Vilela </i> </a></h2>
 
 <!-- Website Links -->
 
