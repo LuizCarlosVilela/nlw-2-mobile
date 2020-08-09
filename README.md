@@ -27,9 +27,9 @@ Proffy é um projeto **Open Source** desenvolvido na semana **Next Level Week (2
 
 </h3>
 
-<h1 align=center>
+<h2 align=center>
   <i>Telas Mobile </i> :iphone:
-</h1>
+</h2>
 
 <div align=center >  
   <table align=center border="0">
