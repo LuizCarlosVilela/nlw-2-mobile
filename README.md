@@ -18,6 +18,8 @@
 
 </div>
 
+<br />
+
 <h3 align=center>
   
 :books:
@@ -43,7 +45,7 @@ Proffy é um projeto **Open Source** desenvolvido na semana **Next Level Week (2
 </table>
 </div>
 
-<br /><br />
+<br />
 
 ## **:rocket: OBJETIVO**
 
