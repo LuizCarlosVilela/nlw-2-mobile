@@ -25,24 +25,25 @@ Proffy é um projeto **Open Source** desenvolvido na semana **Next Level Week (2
 
 </h3>
 
-
-<br /><br />
-
-<table align=center border="0" style="border:1px solid red">
-  <tr align=center >
-    <th><strong> TeacherList </strong></th>
-    <th><strong> Landing </strong></th>
-    <th><strong> Landing </strong></th>
+<div align=center >  
+  <table align=center border="0">
+  <tr align=center>
+    <th ><strong> TeacherList </strong></th>
+    <th ><strong> Landing </strong></th>
+    <th ><strong> Landing </strong></th>
   </tr>
                                 
   <tr align=center >
-    <td>
+    <td >
        <img width="400" src="assets/img/Landing.png">
     </td>
-    <td> <img width="400" src="assets/img/Landing.png"> </td>
+    <td > <img width="400" src="assets/img/Landing.png"> </td>
     <td> <img width="400" src="assets/img/Landing.png"> </td>
   </tr>
 </table>
+</div>
+
+<br /><br />
 
 ## **:rocket: OBJETIVO**
 
