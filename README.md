@@ -80,7 +80,7 @@ O projeto tem como finalidade <strong>estabelecer uma conexão</strong> entre os
 - Ícones: **[Feather Icons][feather_icons]**, **[Font Awesome][font_awesome]**
 - Fontes: **[Archivo][font_archivo]**, **[Poopins][font_poopins]**
 
-### ***:wine_glass: COMO UTILIZAR***
+## ***:wine_glass: COMO UTILIZAR***
 
 ### ***Configurações Iniciais***
 
@@ -197,7 +197,7 @@ $ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poopins
 
 Este repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório. 
 
-<h2 align="center">Feito com ❤️ por <a href="https://www.linkedin.com/in/luiz-carlos-vilela/"> <i>Luiz Carlos Vilela </i> </a></h2>
+ <i> <h2 align="center">Feito com ❤️ por <a href="https://www.linkedin.com/in/luiz-carlos-vilela/"> Luiz Carlos Vilela </a></h2> </i>
 
 <!-- Website Links -->
 
