@@ -28,15 +28,15 @@ Proffy é um projeto **Open Source** desenvolvido na semana **Next Level Week (2
 </h3>
 
 <h1 align=center>
-  Telas Mobile :iphone:
+  <i>Telas Mobile </i> :iphone:
 </h1>
 
 <div align=center >  
   <table align=center border="0">
   <tr align=center>
     <th ><strong> Home </strong></th>
-    <th ><strong> Study </strong></th>
-    <th ><strong> Teacher </strong></th>
+    <th ><strong> Study</i> </strong></th>
+    <th ><strong> <i>Teacher</i> </strong></th>
   </tr>
                                 
   <tr align=center >
@@ -51,13 +51,13 @@ Proffy é um projeto **Open Source** desenvolvido na semana **Next Level Week (2
 
 <br />
 
-## **:rocket: OBJETIVO**
+## ***:rocket: OBJETIVO***
 
 <p align=justify> 
 O projeto tem como finalidade <strong>estabelecer uma conexão</strong> entre os <strong>professores</strong> (Proffys) e os <strong>alunos</strong> que desejam um professor com qualificação para dar orientações e aulas sobre determinada matéria. Solucionando então um <strong>problema de comunicação</strong> entre <strong>professores</strong> que queiram dar aulas, e <strong>alunos</strong> que desejam um professor para orientar nos <strong>estudos em diversas áreas</strong>.
 </p>
 
-## **:computer: TECNOLOGIAS**
+## ***:computer: TECNOLOGIAS***
 
 #### **Mobile** ([React Native][react_native] + [TypeScript][typescript])
 
@@ -70,7 +70,7 @@ O projeto tem como finalidade <strong>estabelecer uma conexão</strong> entre os
 
   Arquivo json do front-end mobile <kbd>[package.json](https://github.com/LuizCarlosVilela/nlw-2-mobile/blob/master/package.json)</kbd>
 
-#### **Utilitários**
+## ***Utilitários***
 
 - Protótipo: **[Figma](https://www.figma.com/)** &rarr; **<kbd>[Protótipo (Proffy)](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web/duplicate)</kbd>**
 - Editor: **[Visual Studio Code][vscode]** &rarr; Extensions: **<kbd>[SQLite][vscode_sqlite_extension]</kbd>**
@@ -80,9 +80,9 @@ O projeto tem como finalidade <strong>estabelecer uma conexão</strong> entre os
 - Ícones: **[Feather Icons][feather_icons]**, **[Font Awesome][font_awesome]**
 - Fontes: **[Archivo][font_archivo]**, **[Poopins][font_poopins]**
 
-## **:wine_glass: COMO UTILIZAR**
+### ***:wine_glass: COMO UTILIZAR***
 
-### Configurações Iniciais
+### ***Configurações Iniciais***
 
 Primeiro, você precisa ter o <kbd>[NodeJS](https://nodejs.org/en/download/)</kbd> instalado na sua máquina. 
 
@@ -97,7 +97,7 @@ Após ter o **Node** instalado, instale as dependências do **React e React Nati
 $ npm install -g expo-cli 
 ```
 
-# Expo (React Native):
+### ***Expo (React Native)***
 
 Instale as dependências contidas nos arquivos `package.json` que se encontram na raíz do repositório (para o gerenciamento de commits), no diretório do **server**, no diretório do **website** e no diretório **mobile**. Para instalar as dependências, basta abrir o terminal no diretório e digitar o comando:
 
@@ -121,7 +121,7 @@ $ npm install
 
 Veja os arquivos **`package.json`** do <kbd>[commitlint](./package.json)</kbd>, <kbd>[server](https://github.com/LuizCarlosVilela/nlw-2-backend/blob/master/package.json)</kbd>, <kbd>[website](https://github.com/LuizCarlosVilela/nlw-2-web/blob/master/package.json)</kbd> e <kbd>[mobile](https://github.com/LuizCarlosVilela/nlw-2-mobile/blob/master/package.json)</kbd>.
 
-### Utilizando o Mobile
+### ***Utilizando o Mobile***
 
 Instale o aplicativo <kbd>[Expo](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en)</kbd> no seu smartphone.
 
@@ -144,7 +144,7 @@ $ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poopins
 
 **\* Lembre de inserir no arquivo `.env` o IP exato que foi gerado pelo seu mobile após utilizar o comando `npm run start`.**
 
-## **:star2: AGRADECIMENTOS**
+## ***:star2: AGRADECIMENTOS***
 
 <div align=center>
 
@@ -181,7 +181,7 @@ $ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poopins
 
 </div>
 
-## **:books: REFERÊNCIAS**
+## ***:books: REFERÊNCIAS***
 
 - [React + TypeScript Cheat Sheet](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
 - [Blog Rocketseat](https://blog.rocketseat.com.br/)
@@ -193,7 +193,7 @@ $ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poopins
 - [Celebrate](https://github.com/arb/celebrate)
 - [Joi](https://hapi.dev/module/joi/)
 
-## **:page_with_curl: LICENÇA**
+## ***:page_with_curl: LICENÇA***
 
 Este repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório. 
 
