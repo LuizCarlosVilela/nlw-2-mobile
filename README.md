@@ -25,28 +25,24 @@ Proffy é um projeto **Open Source** desenvolvido na semana **Next Level Week (2
 
 </h3>
 
-<h1 align=center>
-  <img src="assets/img/TelaWeb-Mobile.png" alt="Tela Web-Mobile"/>
-</h1>
 
 <br /><br />
 
-<div align=center>
-
-<table style="width: 100%">
-  <tr align=center>
-    <th><strong> Landing </strong></th>
+<table align=center>
+  <tr align=center >
     <th><strong> TeacherList </strong></th>
+    <th><strong> Landing </strong></th>
+    <th><strong> Landing </strong></th>
   </tr>
-  
-  <tr align=center>
+                                
+  <tr align=center >
     <td>
-       <img width="200"  src="assets/img/Landing.png">
+       <img width="400" src="assets/img/Landing.png">
     </td>
+    <td> <img width="400" src="assets/img/Landing.png"> </td>
+    <td> <img width="400" src="assets/img/Landing.png"> </td>
   </tr>
 </table>
-
-</div>
 
 ## **:rocket: OBJETIVO**
 
