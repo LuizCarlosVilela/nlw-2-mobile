@@ -59,7 +59,7 @@ O projeto tem como finalidade <strong>estabelecer uma conexão</strong> entre os
 
 ## ***:computer: TECNOLOGIAS***
 
-#### **Mobile** ([React Native][react_native] + [TypeScript][typescript])
+#### ***:iphone: Mobile*** ([React Native][react_native] + [TypeScript][typescript])
 
   - **[Expo][expo]**
   - **[Expo Google Fonts][expo_google_fonts]**
