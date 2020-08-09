@@ -70,7 +70,7 @@ O projeto tem como finalidade <strong>estabelecer uma conexão</strong> entre os
 
   Arquivo json do front-end mobile <kbd>[package.json](https://github.com/LuizCarlosVilela/nlw-2-mobile/blob/master/package.json)</kbd>
 
-## ***Utilitários***
+### ***Utilitários***
 
 - Protótipo: **[Figma](https://www.figma.com/)** &rarr; **<kbd>[Protótipo (Proffy)](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web/duplicate)</kbd>**
 - Editor: **[Visual Studio Code][vscode]** &rarr; Extensions: **<kbd>[SQLite][vscode_sqlite_extension]</kbd>**
